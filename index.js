@@ -10,7 +10,7 @@ app.use(express.urlencoded({useNewUrlParser:true}))
 //routing
 
 app.get('/', (req,res)=>{
-    res.send('hi');
+    res.render("index.html");
 })
 
 app.listen(process.env.PORT, function(){
