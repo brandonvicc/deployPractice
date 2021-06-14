@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/brandonvicc/deployPractice/issues"
   },
-  "homepage": "https://github.com/brandonvicc/deployPractice#readme"
+  "homepage": "https://github.com/brandonvicc/deployPractice#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
